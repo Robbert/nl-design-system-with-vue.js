@@ -5,5 +5,4 @@ node_modules
 .next/
 dist/
 CHANGELOG.md
-package.json
 package-lock.json
