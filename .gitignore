@@ -1,23 +1,26 @@
+# Ignore 3rd party files
+node_modules/
+.npm/
+
+# Ignore generated files
+dist/
+tmp/
+*.tgz
+
+# Ignore log files
+*.err
+*.log
+*.tmp
+
+# Ignore code editor files
+.vscode/
+*.sublime-workspace
+.vs/
+
+# Ignore OS files
 .DS_Store
-node_modules
-/dist
 
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Only track the npm 7 workspace root package-lock.json
+yarn.lock
+package-lock.json
+!/package-lock.json
