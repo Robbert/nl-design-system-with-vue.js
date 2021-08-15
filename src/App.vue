@@ -9,9 +9,10 @@
           <router-link class="utrecht-topnav__link" to="/">Home</router-link>
         </li>
         <li class="utrecht-topnav__item">
-          <router-link class="utrecht-topnav__link" to="/about"
-            >About</router-link
-          >
+          <router-link class="utrecht-topnav__link" to="/about">About</router-link>
+        </li>
+        <li class="utrecht-topnav__item">
+          <router-link class="utrecht-topnav__link" to="/contact">Contact</router-link>
         </li>
       </ul>
     </nav>
