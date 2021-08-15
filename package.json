@@ -27,6 +27,7 @@
     "@utrecht/component-library-css": "1.0.0-alpha.54",
     "@utrecht/design-tokens": "1.0.0-alpha.47",
     "@utrecht/web-component-library-stencil": "1.0.0-alpha.53",
+    "@utrecht/web-component-library-vue": "1.0.0-alpha.1",
     "@vue/cli-plugin-babel": "4.5.13",
     "@vue/cli-plugin-eslint": "4.5.13",
     "@vue/cli-plugin-router": "4.5.13",
