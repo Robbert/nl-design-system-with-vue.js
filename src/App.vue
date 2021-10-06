@@ -1,5 +1,5 @@
 <template>
-  <div class="utrecht-document utrecht-theme">
+  <div class="utrecht-document">
     <header>
       <utrecht-logo></utrecht-logo>
     </header>
@@ -22,7 +22,12 @@
     <main>
       <router-view />
     </main>
-    <utrecht-page-footer>© 2021 Robbert Broersma</utrecht-page-footer>
+    <utrecht-page-footer>
+      <p>© 2021 Robbert Broersma</p>
+      <div>
+        <nl-theme-switcher></nl-theme-switcher>
+      </div>
+    </utrecht-page-footer>
   </div>
 </template>
 
